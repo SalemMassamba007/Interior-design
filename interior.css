@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    font-family: "Poppins";
+    overflow-x: hidden;
+}
+body{
+
+    height: 100%;
+    width: 100%;
+    
+}
+
+div{
+    border: 1px solid blue;
+}
+
+h1, h2, h3{
+    font-weight: 500;
+}
+
+h2{
+    font-size: 48px;
+    color: rgb(244, 67, 54);
+    letter-spacing: -2px;
+}
+
+hr{
+    width: 5%;
+    border: 5px solid red;
+
+}
+
+/* sidebar */
+
+.navbar{
+    height: 100%;
+    width: 20%;
+    position: fixed;
+    z-index: 3;
+    background-color: rgb(244, 67, 54);
+    color: white;
+}
+
+.navbar a{
+    color: white;
+    padding: 8px 16px;
+    font-size: 18px;
+    width: 500px;
+}
+
+.logo{
+    width: 100%;
+    height: 35%;
+    display: inline-block;
+}
+
+.navbar h3{
+    margin: auto;
+    font-size: 24px;
+    padding: 110px 80px 40px 30px;
+    
+}
+
+.links{
+    height: 60%;
+    display: inline;
+}
+
+.links ul{
+    line-height: 41px;
+    margin-left: 10px;
+    position: relative;
+    letter-spacing: -1px;
+    left: -35px;
+    top: -22px;
+}
+
+.links a{
+    font-size: 19px;
+    font-weight: 600;
+}
+
+/* main */
+
+.content{
+    height: auto;
+    width: 80%;
+    align-items: center;
+    margin: 0px 0px 0px 20%;
+}
+
+.content *{
+    margin: auto;
+}
+
+.content div{
+    text-align: left;
+    align-items: start;
+}
+
+/* showcase */
+
+#showcase{
+    margin: 80px 37px 0px;
+    padding: 0px 16px 16px;
+    width: 80%;
+    height: 237.19px;
+}
+
+#showcase h1{
+    font-size: 64px;
+    margin: 10px 0px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+
+
+.imgs{
+    width: 80%;
+    height: 797px;
+    display: flex;
+}
+.half{
+    width: 50%;
+    padding: 0px 8px;
+    margin: 0;
+
+}
+
+/* services */
+
+#services{
+    margin: 75px auto 0px;
+    padding: 0px 16px 16px;
+    width: 80%;
+    height: 355.26px;
+}
+
+/* designers */
+
+#designers{
+    margin: 75px 0px 0px;
+    padding: 0px 16px 16px;
+    width: 80%;
+    height: 395.26px;
+}
+
+.team{
+    width: 80%;
+    height: 402.6px; 
+    padding: 0px 8px;
+    display: flex;  
+}
+
+.member{
+    margin: 0px 0px 16px;
+    padding: 0px 8px;
+    width: 33.3333%;
+    display: block;
+    justify-content: center;
+}
+
+.info{
+    padding: 0px 16px 16px;
+    width: 258.7px;
+    height: 214.32px
+}
+
+/* packages */
+
+#packages{
+    margin: 75px AUTO 0px;
+    padding: 0px 16px 16px;
+    width: 80%;
+    height: 219.22px;
+}
+
+.plans{
+    width: 80%;
+    height: 620.68px;
+    padding: 0px 8px;
+    display: flex;
+}
+
+.half2{
+    width: 50%;
+    height: 100%;
+    margin: 0px 0px 16px;
+    padding: 0px 8px;
+}
+
+/* contact */
+
+#contact{
+    width: 80%;
+    height: 505.71px;
+    margin: 75px auto 0px;
+    padding: 0px 16px 16px;
+}
+
+/* footer */
+
+.footer{
+    width: auto;
+    height: 119.98px;
+    margin: 75px auto 0px;
+    padding: 32px 58px 32px 16px;
+}
+
+.show1{
+    height: 461.44px;
+    width: 100%;
+}
+
+.show2{
+    height: 297px;
+    width: 100%;
+}
+
+.show3{
+    height: 220px;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
