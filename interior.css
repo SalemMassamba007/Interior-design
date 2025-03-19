@@ -24,6 +24,11 @@ h2{
     letter-spacing: -2px;
 }
 
+h3{
+    font-size: 24px;
+    font-weight: 400;
+}
+
 img{
     width: 100%;
     height: 100%;
@@ -122,7 +127,7 @@ img{
 
 
 .imgs{
-    width: 94%;
+    width: 92.6%;
     height: 153vh;
     display: flex;
     margin: 0px 37px 0px;
@@ -175,12 +180,12 @@ img{
     margin: 75px 37px 0px;
     padding: 0px 16px 16px;
     width: 90%;
-    height: 35vh;
+    height: 40vh;
 }
 
 .team{
     width: 91.3%;
-    height: 65vh; 
+    height: 69vh; 
     padding: 0px 8px;
     display: flex;  
     margin: 0px 37px 0px;
@@ -192,34 +197,64 @@ img{
     width: 33%;
     display: block;
     justify-content: center;
-    
+    filter: grayscale(80%);
 }
 
 .info{
-    padding: 0px 16px 16px;
-    width: 100%;
-    height: 214.32px
+    background-color: #f3f3f3;
+    height: 32vh;
+    position: relative;
+    top: -1vh;
+    padding: 0px 12px 0px;
 }
 
+.member h3{
+    margin-top: 1vh;
+}
+
+span{
+    filter: contrast(20%);
+    margin: 3vh 0 1vh;
+    display: block;
+}
+
+.minfo{
+    margin: 3vh 0;
+}
+
+#designers hr{
+    width: 5%;
+    border: 5px solid red;
+    margin: 20px 0px;
+    border-radius: 10px;
+}
 /* packages */
 
 #packages{
-    margin: 75px AUTO 0px;
+    margin: 75px 37px 0px;
     padding: 0px 16px 16px;
-    width: 80%;
-    height: 219.22px;
+    width: 90%;
+    height: 24vh;
+}
+
+#packages hr{
+    width: 5%;
+    border: 5px solid red;
+    margin: 20px 0px;
+    border-radius: 10px;
 }
 
 .plans{
-    width: 80%;
-    height: 620.68px;
+    width: 91.3%;
+    height: 110vh;
     padding: 0px 8px;
     display: flex;
+    margin: 0px 37px 0px;
 }
 
 .half2{
     width: 50%;
-    height: 100%;
+    height: auto;
     margin: 0px 0px 16px;
     padding: 0px 8px;
 }
