@@ -4,18 +4,30 @@
     overflow-x: hidden;
 }
 body{
-
     height: 100%;
     width: 100%;
-    
 }
 
-div{
+/* div{
     border: 1px solid blue;
-}
+} */
 
 h1, h2, h3{
     font-weight: 500;
+}
+
+span{
+    filter: contrast(20%);
+    margin: 3vh 0 1vh;
+    display: block;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
 }
 
 h2{
@@ -49,7 +61,13 @@ img{
     color: white;
     padding: 8px 16px;
     font-size: 18px;
-    width: 500px;
+    display: block;
+    width: 46vh;
+}
+
+.navbar a:hover{
+    background-color: #fff;
+    color: #000;
 }
 
 .logo{
@@ -71,12 +89,12 @@ img{
 }
 
 .links ul{
-    line-height: 41px;
+    line-height: 4vh;
     margin-left: 10px;
     position: relative;
     letter-spacing: -1px;
     left: -35px;
-    top: -22px;
+    top: -0.5vh;
 }
 
 .links a{
@@ -110,6 +128,7 @@ img{
     width: 80%;
     height: 237.19px;
 }
+
 #showcase hr{
    width: 5%;
    border: 5px solid red;
@@ -124,19 +143,25 @@ img{
     letter-spacing: 1px;
 }
 
-
-
 .imgs{
     width: 92.6%;
     height: 153vh;
     display: flex;
     margin: 0px 37px 0px;
 }
+
+.showing{
+    opacity: 0.8;
+}
+
+.showing:hover{
+    opacity: 1;
+}
+
 .half{
     width: 50%;
     padding: 0px 8px;
     margin: 0;
-
 }
 
 .top{
@@ -212,11 +237,6 @@ img{
     margin-top: 1vh;
 }
 
-span{
-    filter: contrast(20%);
-    margin: 3vh 0 1vh;
-    display: block;
-}
 
 .minfo{
     margin: 3vh 0;
@@ -234,7 +254,7 @@ span{
     margin: 75px 37px 0px;
     padding: 0px 16px 16px;
     width: 90%;
-    height: 24vh;
+    height: 27vh;
 }
 
 #packages hr{
@@ -246,35 +266,164 @@ span{
 
 .plans{
     width: 91.3%;
-    height: 110vh;
+    height: 93.5vh;
     padding: 0px 8px;
     display: flex;
     margin: 0px 37px 0px;
 }
 
+.plans ul{
+    width: 100%;
+    padding: 0;
+    text-align: center;
+}
+
+
+
+.plan{
+    padding: 2.55vh 0;
+    margin: auto;
+}
+
+.plan, .price{
+    background-color: #f3f3f3;
+    border-bottom: 1px solid #d8d8d8;
+    width: 100%;   
+}
+
+.align{
+    display: inline;   
+}
+
+.price span{
+    margin: 2vh 0;
+}
+
+.price h1{
+    margin: 2vh 0;
+}
+
+.plann{
+    background-color: #f3f3f3;
+    width: 100%;
+    padding: 5vh 0;
+}
+
+.basic{
+    background-color: #616161;
+    color: white;
+    padding: 6% 44%;
+    
+}
+
+.basic h3{
+    display: inline;
+}
+
+.pro{
+    background-color: rgb(244, 67, 54);
+    color: white;
+    padding: 6% 45%;
+    
+}
+
+.pro h3{
+    display: inline;
+}
+
 .half2{
     width: 50%;
-    height: auto;
+    height: 90.5vh;
     margin: 0px 0px 16px;
     padding: 0px 8px;
+}
+
+.basicbut{
+    font-size: 14px;
+    padding: 2vh 4vh;
+    background-color: #fff;
+    border: none;
+}
+
+.basicbut:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.probut{
+    font-size: 14px;
+    padding: 2vh 4vh;
+    background-color: rgb(244, 67, 54);
+    color: #fff;
+    border: none;
+}
+
+.probut:hover{
+    background-color: #000;
+    color: #fff;
 }
 
 /* contact */
 
 #contact{
-    width: 80%;
-    height: 505.71px;
-    margin: 75px auto 0px;
+    width: 90%;
+    height: 72.4vh;
+    margin: 75px 37px 0px;
     padding: 0px 16px 16px;
+}
+
+#contact hr{
+    width: 5%;
+    border: 5px solid red;
+    margin: 20px 0px;
+    border-radius: 10px;
+}
+
+label{
+    display: block;
+}
+
+input{
+    width: 98%;
+    height: 6vh;
+    border: 1px solid #a7a7a7;
+    margin: 0;
+}
+
+.inp{
+    margin: 3vh 0;
+}
+
+#submit{
+    font-size: 16px;
+    font-weight: 500;
+    background-color: rgb(244, 67, 54);
+    color: #fff;
+    border: none;
+}
+
+#submit:hover{
+    background-color: #cecece;
+    color: #000;
 }
 
 /* footer */
 
 .footer{
     width: auto;
-    height: 119.98px;
+    height: 7vh;
     margin: 75px auto 0px;
-    padding: 32px 58px 32px 16px;
+    padding: 42px 58px 40px 16px;
+    background-color: #f1f1f1;
+}
+
+.footer p{
+    text-align: right;
+}
+
+.footer a{
+    text-decoration: underline;
+    color: #000;
 }
 
 .show1{
@@ -292,10 +441,6 @@ span{
     width: 100%;
 }
 
-a{
-    text-decoration: none;
-}
-
-li{
-    list-style: none;
+.w3s:hover{
+    color: purple;
 }

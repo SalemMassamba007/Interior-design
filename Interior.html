@@ -48,14 +48,14 @@
       </div>
       <div class="imgs">
         <div class="half">
-          <div class="top"><img src="Images/kitchenconcrete.jpg" alt="" /></div>
-          <div class="mid"><img src="Images/livingroom.jpg" alt="" /></div>
-          <div class="bot"><img src="Images/diningroom.jpg" alt="" /></div>
+          <div class="top"><img class="showing" src="Images/kitchenconcrete.jpg" alt="" /></div>
+          <div class="mid"><img class="showing" src="Images/livingroom.jpg" alt="" /></div>
+          <div class="bot"><img class="showing" src="Images/diningroom.jpg" alt="" /></div>
         </div>
         <div class="half">
-          <div class="top"><img src="Images/atrium.jpg" alt="" /></div>
-          <div class="mid"><img src="Images/bedroom.jpg" alt="" /></div>
-          <div class="bot"><img src="Images/livingroom2.jpg" alt="" /></div>
+          <div class="top"><img class="showing" src="Images/atrium.jpg" alt="" /></div>
+          <div class="mid"><img class="showing" src="Images/bedroom.jpg" alt="" /></div>
+          <div class="bot"><img class="showing" src="Images/livingroom2.jpg" alt="" /></div>
         </div>
       </div>
       <div id="services">
@@ -133,7 +133,7 @@
       </div>
       <div id="packages">
         <h2>Packages.</h2>
-        <hr>
+        <hr />
         <p>
           Some text our prices. Lorem ipsum consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -144,32 +144,63 @@
       <div class="plans">
         <div class="half2">
           <ul>
-            <li class="basic">Basic</li>
-            <li class="plan">Floorplanning</li>
-            <li class="plan">10 hours support</li>
-            <li class="plan">Photography</li>
-            <li class="plan">20% furniture discount</li>
-            <li class="plan">Good deals</li>
-            <li class="plan"><h1>$ 199</h1><span>per room</span></li>
-            <li><button class="basicbut">Sign Up</button></li>
+            <div class="basic"><h3>Basic</h3></div>
+            <li class="plan"><div class="align">Floorplanning</div></li>
+            <li class="plan"><div class="align">10 hours support</div></li>
+            <li class="plan"><div class="align">Photography</div></li>
+            <li class="plan">
+              <div class="align">20% furniture discount</div>
+            </li>
+            <li class="plan"><div class="align">Good deals</div></li>
+            <li class="price">
+              <h1>$ 199</h1>
+              <span>per room</span>
+            </li>
+            <li class="plann"><button class="basicbut">Sign Up</button></li>
           </ul>
         </div>
         <div class="half2">
           <ul>
-            <li class="pro">Pro</li>
-            <li class="plan">Floorplanning</li>
-            <li class="plan">50 hours support</li>
-            <li class="plan">Photography</li>
-            <li class="plan">50% furniture discount</li>
-            <li class="plan">GREAT deals</li>
-            <li class="plan"><h1>$ 249</h1><span>per room</span></li>
-            <li><button class="probut">Sign Up</button></li>
+            <div class="pro"><h3>Pro</h3></div>
+            <li class="plan"><div class="align">Floorplanning</div></li>
+            <li class="plan"><div class="align">50 hours support</div></li>
+            <li class="plan"><div class="align">Photography</div></li>
+            <li class="plan">
+              <div class="align">50% furniture discount</div>
+            </li>
+            <li class="plan"><div class="align">GREAT deals</div></li>
+            <li class="price">
+              <h1>$ 249</h1>
+              <span>per room</span>
+            </li>
+            <li class="plann"><button class="probut">Sign Up</button></li>
           </ul>
         </div>
       </div>
-      <div id="contact"></div>
+      <div id="contact">
+        <h2>Contact.</h2>
+        <hr />
+        <p>
+          Do you want us to style your home? Fill out the form and fill me in
+          with the details :) We love meeting new people!
+        </p>
+        <form>
+          <div class="inp">
+            <label for="name">Name</label><input type="text" id="name">
+          </div>
+          <div class="inp">
+            <label for="email">Email</label><input type="text" id="email">
+          </div>
+          <div class="inp">
+            <label for="message">Message</label><input type="text" id="message">
+          </div>
+          <div class="inp">
+            <input type="submit" id="submit" value="Send Message">
+          </div>
+        </form>
+      </div>
       <div class="footer">
-        <p>Powered by <a href="">w3.css</a></p>
+        <p>Powered by <a class="w3s" href="">w3.css</a></p>
       </div>
     </div>
   </body>
